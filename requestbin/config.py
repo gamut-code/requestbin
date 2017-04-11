@@ -10,7 +10,7 @@ FLASK_SESSION_SECRET_KEY = os.environ.get("SESSION_SECRET_KEY", "N1BKhJLnBqLpexO
 
 BIN_TTL = 60*60*24*365 # TTL 1 year
 STORAGE_BACKEND = "requestbin.storage.memory.MemoryStorage"
-MAX_RAW_SIZE = 1024*10
+MAX_RAW_SIZE = 1024*1000
 IGNORE_HEADERS = []
 MAX_REQUESTS = 200 # Max requests persisted
 CLEANUP_INTERVAL = 3600
